@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    background-color: #ebebeb;
+    height: 3em;
+    padding: 1em;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
