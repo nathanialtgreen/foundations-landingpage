@@ -1,16 +1,189 @@
+body {
+    margin: 0em;
+    font-family: Helvetica;
+}
+
+img {
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 5pt;
+}
+
+a:hover {
+    color: #008081;
+}
+
 .header {
     display: flex;
-    background-color: #ebebeb;
-    height: 3em;
-    padding: 1em;
-    width: 100%;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 3.5em;
+    max-height: 2em;
+    color: #fff;
 }
-.logo {
-    display: flex;
-    flex-direction: row;
+
+.subheader {
+    color: #999;
+    font-size: 14pt;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.navitem {
+    margin: 0em 1em 1em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    height: 3em;
+}
+
+.logoimg {
+    border-radius: 0;
+}
+
+.panel-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 6em 6em;
+    color: #fff;
+}
+
+button {
+    border-radius: 5px;
+    max-height: 4em;
+    border: none;
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #00CAB1;
+    color: #fff;
+    transition-duration: 0.25s;
+}
+
+button:hover {
+    background-color: #008081;
+}
+
+.subheader {
+    font-weight: normal;
+}
+
+.panel-1-image {
+    padding: 1em;
+}
+
+.panel-2 {
+    background-color: #ebebeb;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.figimg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+figcaption {
+    margin: 1em;
+    overflow-wrap: normal;
+    color: #777777;
+}
+
+.panel-3 {
+    height: 10em;
+    background: #333333;
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10em;
+}
+
+.quote {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.panel-4 {
+    padding: 10em;
+    background-color: #ebebeb;
+}
+
+.call-to-action {
+    background-color: #333;
+    padding: 2em;
+    border-radius: 7pt;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-copy {
+    margin: 0em 1em;
+}
+
+.cta-button {
+    background-color: #333;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: #333;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.footer {
+    height: 7em;
+    background-color: #008081;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: .1em;
 }
